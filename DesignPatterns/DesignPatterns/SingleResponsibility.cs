@@ -75,7 +75,7 @@ namespace DesignPatterns
                 File.WriteAllText(filename, j.ToString());
         }
     }
-    class Demo
+    class SingleResponsibility
     {
         static void Main(string[] args)
         {
