@@ -84,7 +84,11 @@ namespace OpenClosePrinciple
     }
 
     /// <summary>
-    ///
+    /// This is the expansion portion of the open/close principle
+    /// wherein by having an interface we can expand the filtering
+    /// mechanism in conjunction with the ISpecification interface
+    /// to allow for a flexible program that could filter
+    /// Many product types by more specifications.  
     /// </summary>
     /// <typeparam name="T"></typeparam>
     public interface IFilter<T>
